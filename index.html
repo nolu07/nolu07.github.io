@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8" />
+  <title>JavaScript Snake Game</title>
+  <link rel="stylesheet" href="app.css" />
 </head>
+
 <body>
-
-<h1>Mein erstes Heading</h1>
-<a href="https://www.w3schools.com">This is a link</a>
-<img src="https://pbs.twimg.com/profile_images/1220658118461480960/08T-qq3H_400x400.jpg" alt="W3Schools.com" width="104" height="142">
-
-<p>My first paragraph.</p>
-
+  Speed: <input type="number" id="gameSpeed" value="5" min="1" max="9" step="1" />
+  <input type="button" value="Start" id="gameStart" />
+  <br /> <br />
+  <canvas id="gameArea"></canvas>
+  <script src="app.js"></script>
 </body>
+
 </html>
